@@ -1,0 +1,39 @@
+# System files
+.bash_history
+.lesshst
+.wget-hsts
+.node_repl_history
+
+# Directories to ignore
+.azure/
+.cache/
+.config/
+.copilot/
+.docker/
+.gemini/
+.npm/
+.pm2/
+.ssh/
+.local/
+
+# Environment files
+.env
+.env.*
+
+# Backups
+*.backup.*
+*.tar.gz
+*backup*/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+.DS_Store
+
+# Azure credentials
+*.pfx
+*.pem
+*.key
