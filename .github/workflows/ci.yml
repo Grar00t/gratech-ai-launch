@@ -33,7 +33,7 @@ jobs:
         run: |
           tar -czf gratech-ai-launch.tar.gz scripts/ docs/ README.md
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gratech-package
           path: gratech-ai-launch.tar.gz
